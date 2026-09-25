@@ -59,7 +59,7 @@ siwes_report_vdb = Chroma(
 siwes_report_retriever = siwes_report_vdb.as_retriever(
     search_type="mmr",
     search_kwargs={
-        "k": 2,
+        "k": 5,
         "fetch_k": 10
     }
 )
